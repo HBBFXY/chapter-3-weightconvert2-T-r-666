@@ -1,6 +1,5 @@
 # 在这个文件里编写代码
-# 假设当前在地球上的体重（单位：kg）
-current_weight=60
+current_weight=float(input("请输入您当前的体重（kg）: "))
 moon_weight_change=0.165
 yearly_gain=0.5
 print("未来10年地球和月球上的体重变化：")
